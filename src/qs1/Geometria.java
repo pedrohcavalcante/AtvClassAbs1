@@ -8,11 +8,13 @@ public class Geometria {
 		AreaCalculavel quad = new Quadrado(5.0);
 		AreaCalculavel reta = new Retangulo(5, 5);
 		AreaCalculavel tria = new Triangulo(5, 5);
+		AreaCalculavel circ1 = new Circulo (6.0);
 		
 		System.out.println(circ.calcularArea());
 		System.out.println(quad.calcularArea());
 		System.out.println(reta.calcularArea());
 		System.out.println(tria.calcularArea());
+		System.out.println(circ1.calcularArea());
 	}
 
 }
